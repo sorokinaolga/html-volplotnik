@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/flickity.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Вологодский плотник</title>
+  </head>
+  <body>
+    <header class="d-block d-md-none sticky-top page-header">
+      <nav class="navbar header-menu">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Логотип компании Вологодский плотник" width="62" height="65" />
+        </a>
+        <button class="navbar-toggler collapsed header__burger" type="button" data-toggle="collapse" data-target="#top_menu">
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="top_menu">
+          <ul class="navbar-nav menu-list">
+            <li class="menu-list__item">
+              <a href="#">О компании</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#">Проекты</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#">Наши работы</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#">Отзывы</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#">Новости</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="page-content container-fluid">
+      <div class="row">
+        <aside class="col-md-2 d-none d-md-block side-menu">
+          <nav class="navbar-expand-lg">
+            <a class="d-flex justify-content-center" href="#">
+              <img class="img-fluid" src="img/logo.png" alt="Логотип компании Вологодский плотник" />
+            </a>
+            <p class="text-center logo-text">Качество, <br />проверенное <br />поколениями</p>
+            <button class="navbar-toggler collapsed sidebar-burger" type="button" data-toggle="collapse" data-target="#side_menu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              <span>Меню</span>
+              <p class="sidebar-burger__close">&times;</p>
+            </button>
+            <div class="collapse navbar-collapse flex-column navigation" id="side_menu">
+              <ul class="navigation-list">
+                <li class="navigation-list__item">
+                  <a href="#">О компании</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a href="#">Проекты</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a href="#">Наши работы</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a href="#">Отзывы</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a href="#">Новости</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+              <a class="d-none d-lg-inline navigation-link navigation-link_tel" href="tel:+78002000679">8 800 2000 679</a>
+              <p class="d-none d-lg-inline navigation-text">пн-пт с 9:00 до 18:00</p>
+              <a class="d-none d-lg-inline navigation-link" href="#">Обратный звонок</a>
+            </div>
+          </nav>
+        </aside>
+        <div class="col-xl-3 d-none d-xl-block sidebar-order-container">
+          <div class="sidebar-order order">
+            <p>Поделиться проектом</p>
+            <div class="social-list">
+              <a class="social-btn social-btn_vk" href="https://vk.com/" target="_blank">Вконтакте</a>
+              <a class="social-btn social-btn_ok" href="https://ok.ru/" target="_blank">Одноклассники</a>
+              <a class="social-btn social-btn_fb" href="https://www.facebook.com/" target="_blank">Facebook</a>
+              <span class="social-btn_msg">1234</span>
+            </div>
+            <dl class="description">
+              <div class="description__item description__item_size">
+                <dt>Размеры:</dt>
+                <dd>12,0 м x 9,5 м</dd>
+              </div>
+              <div class="description__item description__item_square">
+                <dt>Общая площадь:</dt>
+                <dd>153 м<sup>2</sup></dd>
+              </div>
+              <div class="description__item description__item_floors">
+                <dt>Этажность:</dt>
+                <dd>2 этажа</dd>
+              </div>
+              <div class="description__item description__item_diameter">
+                <dt>Диаметр бревна:</dt>
+                <dd>153 м<sup>2</sup></dd>
+              </div>
+              <div class="description__item_price">
+                <dt>Цена за домокомплект:</dt>
+                <dd>1 200 000 руб.</dd>
+              </div>
+            </dl>
+            <a class="order-btn" href="#">Заказать смету</a>
+            <p class="order-text">Проект «На озере» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чдесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу для ужинов и завтраков.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-10 col-xl-7 page-content">
+          <div class="container">
+            <main class="main-content">
+              <nav class="d-none d-md-block nav-breadcrumb">
+                <ol>
+                  <li>
+                    <a>Главная</a>
+                  </li>
+                  <li>
+                    <a>Проекты</a>
+                  </li>
+                </ol>
+              </nav>
+              <h1 class="project-title">Проект дома «На озере»</h1>
+              <div class="content">
+                <div class="row promo">
+                  <div class="col-12 col-lg-8 col-xl-12 promo-left">
+                    <div class="project">
+                      <div class="row">
+                        <div class="col-12 col-xl-8 carousel-wrapper">
+                          <div class="carousel carousel-main" data-flickity>
+                            <div class="carousel-cell carousel-cell_1"></div>
+                            <div class="carousel-cell carousel-cell_2"></div>
+                            <div class="carousel-cell carousel-cell_3"></div>
+                            <div class="carousel-cell carousel-cell_4"></div>
+                          </div>
+                          <div class="carousel carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
+                            <div class="carousel-cell carousel-cell_nav1"></div>
+                            <div class="carousel-cell carousel-cell_nav2"></div>
+                            <div class="carousel-cell carousel-cell_nav3"></div>
+                            <div class="carousel-cell carousel-cell_nav4"></div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-xl-4">
+                          <div class="row">
+                            <div class="col-6 col-xl-12 floor-first">
+                              <p>1 этаж</p>
+                              <img class="img-fluid" src="img/floor-1.jpg" alt="Схема 1 этажа" />
+                            </div>
+                            <div class="col-6 col-xl-12 floor-second">
+                              <p>2 этаж</p>
+                              <img class="img-fluid" src="img/floor-1.jpg" alt="Схема 2 этажа" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-lg-4 d-block d-xl-none promo-right">
+                    <div class="order">
+                      <p>Поделиться проектом</p>
+                      <div class="social-list">
+                        <a class="social-btn social-btn_vk" href="https://vk.com/" target="_blank">Вконтакте</a>
+                        <a class="social-btn social-btn_ok" href="https://ok.ru/" target="_blank">Одноклассники</a>
+                        <a class="social-btn social-btn_fb" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        <span class="social-btn_msg">1234</span>
+                      </div>
+                      <dl class="description">
+                        <div class="description__item description__item_size">
+                          <dt>Размеры:</dt>
+                          <dd>12,0 м x 9,5 м</dd>
+                        </div>
+                        <div class="description__item description__item_square">
+                          <dt>Общая площадь:</dt>
+                          <dd>153 м<sup>2</sup></dd>
+                        </div>
+                        <div class="description__item description__item_floors">
+                          <dt>Этажность:</dt>
+                          <dd>2 этажа</dd>
+                        </div>
+                        <div class="description__item description__item_diameter">
+                          <dt>Диаметр бревна:</dt>
+                          <dd>153 м<sup>2</sup></dd>
+                        </div>
+                        <div class="description__item_price">
+                          <dt>Цена за домокомплект:</dt>
+                          <dd>1 200 000 руб.</dd>
+                        </div>
+                      </dl>
+                      <a class="order-btn" href="#">Заказать смету</a>
+                      <p class="order-text">Проект «На озере» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чдесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу для ужинов и завтраков.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="specification-wrapper">
+                  <div class="row">
+                    <div class="col-12 col-md-6 specification-block">
+                      <table class="specification specification_basic">
+                        <tr>
+                          <th>Комплектация "Базовая" (домокомплект)</th>
+                        </tr>
+                        <tr>
+                          <td>Рубленый стеновой комплект сруб в чашу</td>
+                        </tr>
+                        <tr>
+                          <td>Баки половые брус 100 на 200</td>
+                        </tr>
+                        <tr>
+                          <td>Пере... межэтажный брус 150 на 200</td>
+                        </tr>
+                        <tr>
+                          <td>Межвенцовый утеплитель (...)</td>
+                        </tr>
+                        <tr>
+                          <td>Стропила</td>
+                        </tr>
+                        <tr>
+                          <td>Обрешетка</td>
+                        </tr>
+                        <tr>
+                          <td>Нигеля березовые</td>
+                        </tr>
+                        <tr>
+                          <td>Рубероид, ... ... кровля</td>
+                        </tr>
+                        <tr>
+                          <td>Метизы</td>
+                        </tr>
+                        <tr class="specification__price">
+                          <td>1 200 000 руб.</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="col-12 col-md-6 specification-block">
+                      <table class="specification specification_optimal">
+                        <tr>
+                          <th>Комплектация "Оптимальная" (домокомплект + монтаж)</th>
+                        </tr>
+                        <tr>
+                          <td>Укладка межвенцового утеплителя</td>
+                        </tr>
+                        <tr>
+                          <td>Устройство стропильной системы</td>
+                        </tr>
+                        <tr>
+                          <td>Пере... межэтажный брус 150 на 200</td>
+                        </tr>
+                        <tr>
+                          <td>Межвенцовый утеплитель (...)</td>
+                        </tr>
+                        <tr>
+                          <td>Стропила</td>
+                        </tr>
+                        <tr>
+                          <td>Обрешетка</td>
+                        </tr>
+                        <tr>
+                          <td>Нигеля березовые</td>
+                        </tr>
+                        <tr>
+                          <td>Сборка стенового комплекта</td>
+                        </tr>
+                        <tr>
+                          <td>Монтаж балок пола</td>
+                        </tr>
+                        <tr>
+                          <td>Монтаж межэтажный балок</td>
+                        </tr>
+                        <tr>
+                          <td>Укладка гидро...</td>
+                        </tr>
+                        <tr class="specification__price">
+                          <td>1 690 000 руб.</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <section class="delivery">
+                  <h2>Доставка</h2>
+                  <p class="delivery-text">
+                    Чтобы доставить докомплект по данному проекту<br />
+                    необходимо <span>4 единицы техники</span>
+                  </p>
+                  <div class="delivery-block">
+                    <div class="delivery-block__truck">
+                      <img src="img/truck.png" alt="" />
+                    </div>
+                    <div class="delivery-block__truck">
+                      <img src="img/truck.png" alt="" />
+                    </div>
+                    <div class="delivery-block__truck d-none d-sm-inline">
+                      <img src="img/truck.png" alt="" />
+                    </div>
+                    <div class="delivery-block__truck d-none d-md-inline">
+                      <img src="img/truck.png" alt="" />
+                    </div>
+                  </div>
+                  <p class="delivery-cost">Стоимость доставки - <span>80 рублей</span> за один километр</p>
+                </section>
+                <section class="about-project">
+                  <h2>Описание проекта</h2>
+                  <p class="about-project-text">Проект «Волна» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чудесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу для ужинов и завтраков.</p>
+                  <div class="img-comp-container">
+                    <div class="img-fluid img-comp-img">
+                      <img src="img/project-1.jpg" alt="" />
+                    </div>
+                    <div class="img-fluid img-comp-img img-comp-overlay">
+                      <img src="img/gallery-1.jpg" alt="" />
+                    </div>
+                  </div>
+                </section>
+                <section class="example">
+                  <h2>По данному проекту были построены дома</h2>
+                  <div class="row example-row">
+                    <div class="col-12 col-lg-5 col-xl-3 order-2 order-xl-1">
+                      <img class="img-fluid" src="img/primer-1.png" alt="" />
+                      <p>Вологодская область, д. Капустино</p>
+                      <a class="example-pdf" href="example.pdf" target="_blank"></a>
+                    </div>
+                    <div class="col-xl-3 order-2 d-none d-xl-block">
+                      <img class="img-fluid" src="img/primer-2.png" alt="" />
+                      <p>Вологодская область, д. Капустино</p>
+                      <a class="example-pdf" href="example.pdf" target="_blank"></a>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-6 order-1 order-xl-3 example-video">
+                      <div class="embed-responsive embed-responsive-16by9 video_wrapper js-videoWrapper">
+                        <iframe class="embed-responsive-item videoIframe js-videoIframe" src="https://www.youtube.com/embed/CCqOD2kbtuU" allowTransparency="true" allowfullscreen></iframe>
+                        <button class="videoPoster js-videoPoster"></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-none d-xl-block gallery">
+                    <div class="row">
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-1.jpg" alt="" />
+                      </div>
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-2.jpg" alt="" />
+                      </div>
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-3.jpg" alt="" />
+                      </div>
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-4.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-5.jpg" alt="" />
+                      </div>
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-6.jpg" alt="" />
+                      </div>
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-7.jpg" alt="" />
+                      </div>
+                      <div class="col-xl-3">
+                        <img class="img-fluid" src="img/gallery-8.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </main>
+            <footer class="d-none d-xl-block footer">
+              <div class="row footer-navigation">
+                <dl class="col-12 col-lg-6 col-xl-3">
+                  <dt>Производство</dt>
+                  <dd>
+                    <ul class="footer-navigation__list">
+                      <li>
+                        <a href="#">Рубленное бревно</a>
+                      </li>
+                      <li>
+                        <a href="#">Оцилиндрованное бревно</a>
+                      </li>
+                      <li>
+                        <a href="#">Дома из бруса</a>
+                      </li>
+                      <li>
+                        <a href="#">Дома из оцилиндрованного бревна</a>
+                      </li>
+                      <li>
+                        <a href="#">Дома из клееного бруса</a>
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl class="col-12 col-lg-6 col-xl-3">
+                  <dt>Проект</dt>
+                  <dd>
+                    <ul class="footer-navigation__list">
+                      <li>
+                        <a href="#">Дома</a>
+                      </li>
+                      <li>
+                        <a href="#">Бани</a>
+                      </li>
+                      <li>
+                        <a href="#">Малые формы</a>
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <div class="col-12 col-lg-6 col-xl-3 location-block">
+                  <p>Производство:</p>
+                  <p>162220 Вологодская область, <span class="contacts">Сямжа с. ул. Парковая д. 6</span></p>
+                  <p>Офис:</p>
+                  <p>160000 Вологодская область, <span class="contacts">г. Вологда, ул. Мира 8</span></p>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-3 contacts-block">
+                  <p class="phone">8 800 2000-679</p>
+                  <p>Ежедневно с 8:00 до 23:00</p>
+                  <p class="contacts">srub@nord-srub.ru</p>
+                  <div class="footer-social">
+                    <a class="footer-social__btn footer-social__btn_vk" href="https://vk.com/" target="_blank">Вконтакте</a>
+                    <a class="footer-social__btn footer-social__btn_inst" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a class="footer-social__btn footer-social__btn_fb" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row copyright">
+                <p class="col-6 copyright__text">&copy; СК "Вологодский плотник" &copy; 2010 - 2017<br />Все права защищены.</p>
+                <p class="col-6 text-right">
+                  <img src="img/logo-synapse.png" alt="Логотип компании Синапс" /><span class="copyright__link"> - <a href="#">Создание сайта</a></span>
+                </p>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/compare-slider.js"></script>
+    <script src="js/video-player.js"></script>
+  </body>
+</html>

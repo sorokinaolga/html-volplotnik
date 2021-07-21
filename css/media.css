@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1200px) {
+  .floor-second {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .specification th {
+    font-size: 18px;
+  }
+  .specification td {
+    font-size: 14px;
+    padding: 10px 0 10px 15px;
+  }
+  .specification__price td {
+    font-size: 24px;
+  }
+  .example-video {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    padding-top: 0;
+  }
+  .project-title {
+    font-size: 45px;
+    line-height: 45px;
+    margin: 25px 0;
+  }
+  .order {
+    padding-top: 20px;
+  }
+  .order-btn {
+    padding: 23px 50px;
+  }
+  .order-text {
+    max-width: 100%;
+  }
+  .carousel-cell {
+    height: 450px;
+  }
+  .specification th {
+    font-size: 14px;
+  }
+  .img-comp-container {
+    height: 450px;
+  }
+  .img-comp-img img {
+    height: 450px;
+    width: 675px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .project-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .carousel-cell {
+    height: 400px;
+  }
+  .specification th {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel-cell {
+    height: 300px;
+  }
+  .img-comp-container {
+    height: 300px;
+  }
+  .img-comp-img img {
+    height: 300px;
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
